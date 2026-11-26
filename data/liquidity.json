@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T06:23:11Z",
+  "generated_at": "2026-11-26T03:34:34Z",
   "mode": "fred-csv",
-  "start": "2021-11-25",
+  "start": "2021-11-26",
   "latest_week": "2026-11-18",
   "series": {
    "total_assets": "WALCL",
@@ -6213,9 +6213,19 @@
   },
   {
    "date": "2026-11-24",
+   "sofr": 3.94,
    "iorb": 3.9,
+   "effr": 3.88,
+   "spread_bp": 4.0,
    "on_rrp": 0.301,
-   "srp": 0.002
+   "srp": 0.002,
+   "tga_dts": 958.39
+  },
+  {
+   "date": "2026-11-25",
+   "iorb": 3.9,
+   "on_rrp": 0.3,
+   "srp": 0.0
   }
  ],
  "changes": {
@@ -6301,7 +6311,7 @@
   {
    "level": "alert",
    "title": "SOFR − IORB",
-   "detail": "近 5 个交易日有 4 天 SOFR 高于 IORB，最新 +2.0bp"
+   "detail": "近 5 个交易日有 4 天 SOFR 高于 IORB，最新 +4.0bp"
   },
   {
    "level": "ok",
