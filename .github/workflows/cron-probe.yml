@@ -1,0 +1,11 @@
+name: cron-probe
+on:
+  schedule:
+    - cron: "56 02 * * *"
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - run: echo "probe fired at $(date -u +%FT%TZ)"
